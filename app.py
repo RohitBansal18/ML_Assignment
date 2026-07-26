@@ -104,10 +104,17 @@ models, scaler = load_models()
 # SIDEBAR HEADER
 # ======================================================
 
-st.sidebar.image(
-    "https://img.icons8.com/color/96/mobile-phone.png",
-    width=80
-)
+# st.sidebar.image(
+#     "https://img.icons8.com/color/96/mobile-phone.png",
+#     width=80
+# )
+# ======================================================
+# SIDEBAR HEADER
+# ======================================================
+
+st.sidebar.markdown("## 📱")
+st.sidebar.markdown("### Mobile Price Classification")
+st.sidebar.markdown("---")
 
 st.sidebar.title("Configuration")
 
